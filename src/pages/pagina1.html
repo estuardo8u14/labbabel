@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../styles/stylespag1.css">
+  </head>
+  <body>
+      <nav id="nav01"></nav>
+      <div id="main">
+        <h1>Galeria de Imagenes</h1>
+         <!-- grid de 4 columnas -->
+        <div class="linea">
+          <div class="columna">
+            <img src="../imgs/Lampara.JPG" alt="Lampara" onclick="myFunction(this);">
+          </div>
+          <div class="columna">
+            <img src="../imgs/CuadroDona.JPG" alt="Dona" onclick="myFunction(this);">
+          </div>
+          <div class="columna">
+            <img src="../imgs/GloboDorado.JPG" alt="Globo" onclick="myFunction(this);">
+          </div>
+          <div class="columna">
+            <img src="../imgs/Sansa.JPG" alt="Sansa" onclick="myFunction(this);">
+          </div>
+        </div>
+        <!-- contenedor de imagen -->
+        <div class="contenedor">
+          <!-- cerrar imagen -->
+          <span onclick="this.parentElement.style.display='none'" class="cerrarbtn">&times;</span>
+
+          <!-- expandida -->
+          <img id="imgexpandida" style="width:100%">
+
+          <!-- texto -->
+          <div id="imgtexto"></div>
+          <!-- texto -->
+        </div> 
+        <div id="container">
+          <canvas id="Canvas" width="1900" height="10"></canvas>
+        </div>
+        <footer id="pie01"></footer>
+      </div>
+      <script src="../scripts/script1/script1_1.js"></script>
+      <script src="../scripts/script1/script1_2.js"></script>
+      <script src="../scripts/script1/script1_3.js"></script>
+  </body>
+</html>

@@ -20,6 +20,59 @@ h1 {
     color: #996600;
     font-size: 30px;
 }
+.columna {
+  float: left;
+  width: 22%;
+  padding: 10px;
+}
+
+.columna img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.columna img:hover {
+  opacity: 1;
+}
+
+.linea:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contenedor {
+  position: relative;
+  display: none;
+}
+
+
+#imgtexto {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: rgb(212, 22, 22);
+  font-size: 20px;
+}
+
+.cerrarbtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+} 
+
+#container { 
+  width: 100%; 
+  margin: 0; 
+}
+
+#Canvas { 
+  background:#fff; 
+  border:1px solid #ffffff; 
+}
 
 ul#menu {
     padding: 0;
