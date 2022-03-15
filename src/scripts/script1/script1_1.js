@@ -1,3 +1,5 @@
+import { myFunction } from "./script1_2";
+
 document.getElementById("pie01").innerHTML =
 new Date().getFullYear() + " Creado por Estuardo Ureta 17010</p>";
 document.getElementById("nav01").innerHTML =

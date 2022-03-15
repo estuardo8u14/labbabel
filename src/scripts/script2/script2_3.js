@@ -1,6 +1,6 @@
+import { index } from "../index";
 
-
-var checkDead = setInterval(function() {
+export var checkDead = setInterval(function() {
     let characterTop = parseInt(window.getComputedStyle(jugador).getPropertyValue("top"));
     let blockLeft = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
     if(blockLeft<20 && blockLeft>-20 && characterTop>=130){

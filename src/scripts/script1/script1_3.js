@@ -1,10 +1,12 @@
+import { script2_1 } from "../script2/script2_1";
+
 var context;
 var dx= 1.7;
 var dy=4;
 var y=0;
 var x=0;
 
-function draw(){
+export function draw(){
 	context= Canvas.getContext('2d');
 	context.beginPath();
 	context.fillStyle="#e600ff";

@@ -1,6 +1,6 @@
+import { draw } from "./script1_3";
 
-
-function myFunction(imgs) {
+export function myFunction(imgs) {
     // Get imagen expandida
     var expandImg = document.getElementById("imgexpandida");
     // Get texto
