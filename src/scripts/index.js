@@ -1,5 +1,5 @@
-import { myFunction } from "./script1/script1_2";
-import { draw } from "./script1/script1_3";
+import { Interpolado } from "./script1/script1_2";
+import { dibujar } from "./script1/script1_3";
 import '../styles/styles.css';
 import "core-js/stable";
 
@@ -15,6 +15,6 @@ document.getElementById("nav01").innerHTML =
 const saludo = "   hola".trimStart();
 console.log(saludo);
 
-myFunction(img);
+Interpolado(img);
 
-setInterval(draw,0.001);
+setInterval(dibujar,0.001);

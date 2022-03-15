@@ -1,4 +1,4 @@
-import { jump } from "./script2_2";
+import { saltar } from "./script2_2";
 
 document.getElementById("pie01").innerHTML =
 new Date().getFullYear() + " Creado por Estuardo Ureta 17010</p>";

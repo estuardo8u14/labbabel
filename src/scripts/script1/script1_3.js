@@ -6,7 +6,7 @@ var dy=4;
 var y=0;
 var x=0;
 
-export function draw(){
+export function dibujar(){
 	context= Canvas.getContext('2d');
 	context.beginPath();
 	context.fillStyle="#e600ff";
@@ -21,4 +21,4 @@ export function draw(){
 		x+=dx;
 		y+=dy;
 }
-setInterval(draw,0.001);
+setInterval(dibujar,0.001);

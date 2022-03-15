@@ -1,6 +1,6 @@
-import { draw } from "./script1_3";
+import { dibujar } from "./script1_3";
 
-export function myFunction(imgs) {
+export function Interpolado(imgs) {
     // Get imagen expandida
     var expandImg = document.getElementById("imgexpandida");
     // Get texto

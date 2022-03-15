@@ -26,8 +26,8 @@ document.getElementById("nav01").innerHTML = "<ul id='menu'>" + "<li><a href='./
 
 var saludo = "   hola".trimStart();
 console.log(saludo);
-(0,_script1_script1_2__WEBPACK_IMPORTED_MODULE_1__.myFunction)(img);
-setInterval(_script1_script1_3__WEBPACK_IMPORTED_MODULE_2__.draw, 0.001);
+(0,_script1_script1_2__WEBPACK_IMPORTED_MODULE_1__.Interpolado)(img);
+setInterval(_script1_script1_3__WEBPACK_IMPORTED_MODULE_2__.dibujar, 0.001);
 
 /***/ }),
 
@@ -40,11 +40,11 @@ setInterval(_script1_script1_3__WEBPACK_IMPORTED_MODULE_2__.draw, 0.001);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "myFunction": () => (/* binding */ myFunction)
+/* harmony export */   "Interpolado": () => (/* binding */ Interpolado)
 /* harmony export */ });
 /* harmony import */ var _script1_3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script1_3 */ "./src/scripts/script1/script1_3.js");
 
-function myFunction(imgs) {
+function Interpolado(imgs) {
   // Get imagen expandida
   var expandImg = document.getElementById("imgexpandida"); // Get texto
 
@@ -66,7 +66,7 @@ function myFunction(imgs) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "draw": () => (/* binding */ draw)
+/* harmony export */   "dibujar": () => (/* binding */ dibujar)
 /* harmony export */ });
 /* harmony import */ var core_js_modules_es_array_fill_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.fill.js */ "./node_modules/core-js/modules/es.array.fill.js");
 /* harmony import */ var core_js_modules_es_array_fill_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_fill_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -78,7 +78,7 @@ var dx = 1.7;
 var dy = 4;
 var y = 0;
 var x = 0;
-function draw() {
+function dibujar() {
   context = Canvas.getContext('2d');
   context.beginPath();
   context.fillStyle = "#e600ff";
@@ -91,7 +91,7 @@ function draw() {
   x += dx;
   y += dy;
 }
-setInterval(draw, 0.001);
+setInterval(dibujar, 0.001);
 
 /***/ }),
 
@@ -119,14 +119,14 @@ document.getElementById("nav01").innerHTML = "<ul id='menu'>" + "<li><a href='..
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "jump": () => (/* binding */ jump)
+/* harmony export */   "saltar": () => (/* binding */ saltar)
 /* harmony export */ });
 /* harmony import */ var _script2_3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script2_3 */ "./src/scripts/script2/script2_3.js");
 
 var jugador = document.getElementById("jugador");
 var block = document.getElementById("block");
 var counter = 0;
-function jump() {
+function saltar() {
   if (jugador.classList == "animate") {
     return;
   }
